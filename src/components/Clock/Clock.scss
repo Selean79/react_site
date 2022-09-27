@@ -1,0 +1,22 @@
+body{
+  background: antiquewhite;
+}
+
+.show{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+
+    div{
+      border: 2px solid blue;
+      background: rgba(255, 140, 0, 0.8);
+      padding: 3%;
+      color: firebrick;
+    }
+
+    div h2{
+      text-align: center;
+    }
+}
